@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.base.TestListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:\Users\shirisha.mannem\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\RestAssuredAutomation1">
+        <classes>
+            <class name="com.test.ReqRes_Api_Test">
+                <methods>
+                    <include name="testRegisterUser"/>
+                    <include name="testLoginUser"/>
+                    <include name="testCreateUser"/>
+                    <include name="testGetSingleUser"/>
+<include name="testUpdateUser"/>
+<include name="testDeleteUser"/>
+                </methods>
+            </class>
+            <class name="com.test.RestfulBookerAPITest">
+                <methods>
+                    <include name="testCreateToken"/>
+                    <include name="testCreateBooking"/>
+                    <include name="testGetBookingId"/>
+                    <include name="testUpdateBookingDetails"/>
+                    <include name="testDeleteBookingId"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

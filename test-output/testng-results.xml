@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-01T15:16:17 IST" name="All Test Suite" finished-at="2024-03-01T15:16:29 IST" duration-ms="11888">
+    <groups>
+    </groups>
+    <test started-at="2024-03-01T15:16:17 IST" name="C:\Users\shirisha.mannem\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\RestAssuredAutomation1" finished-at="2024-03-01T15:16:29 IST" duration-ms="11888">
+      <class name="com.test.ReqRes_Api_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:17 IST" name="setUp" finished-at="2024-03-01T15:16:17 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupData()[pri:0, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:17 IST" name="setupData" finished-at="2024-03-01T15:16:18 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testRegisterUser()[pri:1, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:18 IST" name="testRegisterUser" finished-at="2024-03-01T15:16:19 IST" duration-ms="1874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterUser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:19 IST" name="getResult" finished-at="2024-03-01T15:16:19 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterUser status=SUCCESS method=ReqRes_Api_Test.testRegisterUser()[pri:1, instance:com.test.ReqRes_Api_Test@51768776] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testLoginUser()[pri:2, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:20 IST" name="testLoginUser" finished-at="2024-03-01T15:16:20 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginUser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:20 IST" name="getResult" finished-at="2024-03-01T15:16:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginUser status=SUCCESS method=ReqRes_Api_Test.testLoginUser()[pri:2, instance:com.test.ReqRes_Api_Test@51768776] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testCreateUser()[pri:3, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:20 IST" name="testCreateUser" finished-at="2024-03-01T15:16:21 IST" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:21 IST" name="getResult" finished-at="2024-03-01T15:16:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateUser status=SUCCESS method=ReqRes_Api_Test.testCreateUser()[pri:3, instance:com.test.ReqRes_Api_Test@51768776] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testGetSingleUser()[pri:4, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:21 IST" name="testGetSingleUser" finished-at="2024-03-01T15:16:21 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSingleUser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:21 IST" name="getResult" finished-at="2024-03-01T15:16:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetSingleUser status=SUCCESS method=ReqRes_Api_Test.testGetSingleUser()[pri:4, instance:com.test.ReqRes_Api_Test@51768776] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testUpdateUser()[pri:5, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:21 IST" name="testUpdateUser" finished-at="2024-03-01T15:16:22 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:22 IST" name="getResult" finished-at="2024-03-01T15:16:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdateUser status=SUCCESS method=ReqRes_Api_Test.testUpdateUser()[pri:5, instance:com.test.ReqRes_Api_Test@51768776] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testDeleteUser()[pri:6, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:22 IST" name="testDeleteUser" finished-at="2024-03-01T15:16:22 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:22 IST" name="getResult" finished-at="2024-03-01T15:16:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteUser status=SUCCESS method=ReqRes_Api_Test.testDeleteUser()[pri:6, instance:com.test.ReqRes_Api_Test@51768776] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.test.ReqRes_Api_Test@51768776]" started-at="2024-03-01T15:16:29 IST" name="endReport" finished-at="2024-03-01T15:16:29 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.test.ReqRes_Api_Test -->
+      <class name="com.test.RestfulBookerAPITest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:com.test.RestfulBookerAPITest@3a0807b7]" started-at="2024-03-01T15:16:22 IST" name="setupData" finished-at="2024-03-01T15:16:22 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testCreateToken()[pri:1, instance:com.test.RestfulBookerAPITest@3a0807b7]" started-at="2024-03-01T15:16:22 IST" name="testCreateToken" finished-at="2024-03-01T15:16:24 IST" duration-ms="1465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateToken -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.RestfulBookerAPITest@3a0807b7]" started-at="2024-03-01T15:16:24 IST" name="getResult" finished-at="2024-03-01T15:16:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateToken status=SUCCESS method=RestfulBookerAPITest.testCreateToken()[pri:1, instance:com.test.RestfulBookerAPITest@3a0807b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testCreateBooking()[pri:2, instance:com.test.RestfulBookerAPITest@3a0807b7]" started-at="2024-03-01T15:16:24 IST" name="testCreateBooking" finished-at="2024-03-01T15:16:25 IST" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.RestfulBookerAPITest@3a0807b7]" started-at="2024-03-01T15:16:25 IST" name="getResult" finished-at="2024-03-01T15:16:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateBooking status=SUCCESS method=RestfulBookerAPITest.testCreateBooking()[pri:2, instance:com.test.RestfulBookerAPITest@3a0807b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testGetBookingId()[pri:3, instance:com.test.RestfulBookerAPITest@3a0807b7]" started-at="2024-03-01T15:16:25 IST" name="testGetBookingId" finished-at="2024-03-01T15:16:26 IST" duration-ms="1334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingId -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.RestfulBookerAPITest@3a0807b7]" started-at="2024-03-01T15:16:26 IST" name="getResult" finished-at="2024-03-01T15:16:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetBookingId status=SUCCESS method=RestfulBookerAPITest.testGetBookingId()[pri:3, instance:com.test.RestfulBookerAPITest@3a0807b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testUpdateBookingDetails()[pri:4, instance:com.test.RestfulBookerAPITest@3a0807b7]" started-at="2024-03-01T15:16:26 IST" name="testUpdateBookingDetails" finished-at="2024-03-01T15:16:28 IST" duration-ms="1305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBookingDetails -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.RestfulBookerAPITest@3a0807b7]" started-at="2024-03-01T15:16:28 IST" name="getResult" finished-at="2024-03-01T15:16:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdateBookingDetails status=SUCCESS method=RestfulBookerAPITest.testUpdateBookingDetails()[pri:4, instance:com.test.RestfulBookerAPITest@3a0807b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testDeleteBookingId()[pri:5, instance:com.test.RestfulBookerAPITest@3a0807b7]" started-at="2024-03-01T15:16:28 IST" name="testDeleteBookingId" finished-at="2024-03-01T15:16:29 IST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBookingId -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.RestfulBookerAPITest@3a0807b7]" started-at="2024-03-01T15:16:29 IST" name="getResult" finished-at="2024-03-01T15:16:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteBookingId status=SUCCESS method=RestfulBookerAPITest.testDeleteBookingId()[pri:5, instance:com.test.RestfulBookerAPITest@3a0807b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.test.RestfulBookerAPITest -->
+    </test> <!-- C:\Users\shirisha.mannem\Documents\workspace-spring-tool-suite-4-4.19.1.RELEASE\RestAssuredAutomation1 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
