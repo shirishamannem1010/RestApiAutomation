@@ -26,12 +26,7 @@ public class BookingDates {
 	public void setCheckout(String checkout) {
 		this.checkout = checkout;
 	}
-	
-	public BookingDates(String checkin, String checkout) {
-	
-		this.checkin = checkin;
-		this.checkout = checkout;
-	}
+
 
 
 }

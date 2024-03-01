@@ -60,27 +60,8 @@ public class Booking {
 	public void setAdditionalNeeds(String additionalNeeds) {
 		this.additionalNeeds = additionalNeeds;
 	}
-	/**
-	 * @param firstname
-	 * @param lastname
-	 * @param totalPrice
-	 * @param depositPaid
-	 * @param bookingDates
-	 * @param additionalNeeds
-	 */
-	public Booking(String firstname, String lastname, int totalPrice, boolean depositPaid, BookingDates bookingDates,
-			String additionalNeeds) {
-		
-		this.firstname = firstname;
-		this.lastname = lastname;
-		this.totalPrice = totalPrice;
-		this.depositPaid = depositPaid;
-		this.bookingDates = bookingDates;
-		this.additionalNeeds = additionalNeeds;
-	}
-	public Booking() {
-		
-	}
+	
+	
 
 }
 
